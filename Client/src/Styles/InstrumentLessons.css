@@ -1,0 +1,28 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    margin: 1em;
+    width: 100%;
+}
+
+.instrument-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 2em;
+    gap: 2em;
+}
+
+.instrument-card {
+    min-width: 12.5em;
+    text-align: center;
+}
+
+.instrument-image {
+    border-radius: 10%;
+}

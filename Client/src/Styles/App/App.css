@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Quando|DM+Serif+Display|Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: "inherit !important";
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:root {
+  --bs-body-font-weight: 300;
+}
